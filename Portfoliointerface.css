@@ -1,13 +1,57 @@
-header  {
-  display: inline;
-  
+body{
+    padding: 0;
+    margin: 0;
 }
 
+
+
+header  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(94, 94, 108);
+  
+  
+  
+  
+}
+h1 {
+    background-color: rgb(63, 117, 134);
+    padding-left: 40px;
+    padding-right: 7px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   font-size: 40px;
+   margin: 0;
+    margin-bottom: 8px;
+    margin-top: 2px;
+
+}
 
 nav {
 justify-content: space-evenly;
 color:aqua;
-display: inline;
+display: inline-block;
+float: right;
+
+
 
 }
+ ul li {
+    color: rgb(186, 49, 49);
+    display: inline-block;
+    margin: 5px 10px 15px 0px;
+    padding-right: 20px;
+    font-weight: bolder;
+    
+ }
 
+ li a {
+ color: rgb(63, 117, 134);
+ 
+ }
+
+ a {
+    text-decoration-thickness: 4px;
+    border-top: 10px 
+ }
