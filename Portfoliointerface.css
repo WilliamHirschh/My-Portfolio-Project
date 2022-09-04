@@ -1,17 +1,13 @@
-header {
-    background-color: rgb(48, 46, 54);
-    
-}
-h1 {
-    color:red;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
+header  {
+  display: inline;
+  
 }
 
-ul li {
- display: inline-block;
- float: right;
- padding: 0;
-    margin: 0;
+
+nav {
+justify-content: space-evenly;
+color:aqua;
+display: inline;
+
 }
+
