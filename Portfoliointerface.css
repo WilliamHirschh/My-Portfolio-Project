@@ -9,28 +9,29 @@ header  {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(94, 94, 108);
-  
+  background-color: rgb(49,52,61);
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-weight: lighter;
   
   
   
 }
 h1 {
-    background-color: rgb(63, 117, 134);
-    padding-left: 40px;
-    padding-right: 7px;
+    background-color: rgb(145,203,205);
+    padding-left: 60px;
+    padding-right: 9px;
    padding-top: 4px;
    padding-bottom: 4px;
    font-size: 40px;
    margin: 0;
     margin-bottom: 8px;
     margin-top: 2px;
-
+  font-weight: lighter;
 }
 
 nav {
 justify-content: space-evenly;
-color:aqua;
+color: rgb(145,203,205);
 display: inline-block;
 float: right;
 
@@ -38,7 +39,7 @@ float: right;
 
 }
  ul li {
-    color: rgb(186, 49, 49);
+    color: rgb(145,203,205);
     display: inline-block;
     margin: 5px 10px 15px 0px;
     padding-right: 20px;
@@ -47,11 +48,33 @@ float: right;
  }
 
  li a {
- color: rgb(63, 117, 134);
+ color: rgb(145,203,205);
  
  }
 
  a {
     text-decoration-thickness: 4px;
-    border-top: 10px 
+    text-decoration: none;
+    border-bottom: 4px solid;
+  
+ }
+
+ img {
+  height: 200px;
+  width: 100%;
+  
+ }
+.headerImage h2 {
+  float: right;
+  position: relative;
+  top: -75px;
+  right: 50px;
+  background-color: rgb(145,203,205);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-weight: lighter;
+  
  }
