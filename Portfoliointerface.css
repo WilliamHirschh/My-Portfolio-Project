@@ -113,6 +113,7 @@ ul {
 
 .aboutMeParagraphContainer {
   padding-inline: 20px;
+  padding-right: 80px
 }
 
 .WorkContainer {
@@ -125,4 +126,24 @@ ul {
 
 .workImagesContainer {
   padding-inline: 2rem;
+  padding-bottom: 100px;
+  padding-right: 80px
+  
+}
+.image1 {
+  border: solid rgb(145,203,205);
+  height: 350px;
+}
+.image2 {
+  display: flex;
+  border: solid rgb(145,203,205);
+  width: 45%;
+  float: left;
+}
+.image3 {
+  display: flex;
+  border: solid rgb(145,203,205);
+  width: 45%;
+  float: right;
+  
 }
