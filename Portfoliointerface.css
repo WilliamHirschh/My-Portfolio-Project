@@ -88,16 +88,41 @@ ul {
   
  }
 
- 
- h3 {
-  font-size: 40px;
-  display: inline;
-  float: left;
-  
- }
 
- article {
-  display: inline;
-  float: right;
+ .AboutMeContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainheaders {
+  color: rgb(101, 118, 143);
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  font-weight: lighter;
+  padding-left: 95px;
+ 
+}
+
+.mainheaderscontainer {
+  padding-inline: 6px 20px;
+  border-right: 3px solid rgb(101, 118, 143);
   
- }
+}
+
+.aboutMeParagraphContainer {
+  padding-inline: 20px;
+}
+
+.WorkContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 16px;
+}
+
+.workImagesContainer {
+  padding-inline: 2rem;
+}
