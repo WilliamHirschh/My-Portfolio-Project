@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color:rgb(208, 215, 215);
+    flex-wrap: wrap;
 }
 
 
@@ -33,8 +34,7 @@ h1 {
 
 nav {
 justify-content: flex-end;
-color: rgb(145,203,205);
-display: inline-block;
+flex-wrap: wrap;
 float: right;
 
 }
@@ -60,16 +60,18 @@ ul {
  }
 
  a {
-    text-decoration-thickness: 4px;
     text-decoration: none;
     border-bottom: 4px solid;
-    
-  
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #000000;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
  }
 
- a.work:hover,
-a.work:focus {
-  bulox-shadow: inset 0 0 0 2em var(--hover);
+ a:hover {
+  color: rgb(49,52,61);
+  box-shadow: inset 200px 0 0 0 rgb(145,203,205);;
  }
 
  img {
@@ -222,8 +224,8 @@ a.work:focus {
 
 .footerlinks {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-block;
+  
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 50px;
