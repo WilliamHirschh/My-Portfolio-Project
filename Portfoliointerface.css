@@ -107,6 +107,7 @@ ul {
 }
 
 .mainheaderscontainer {
+  display: flex;
   padding-inline: 6px 20px;
   border-right: 3px solid rgb(101, 118, 143);
   
@@ -117,34 +118,94 @@ ul {
   padding-right: 80px
 }
 
-.WorkContainer {
+.Workcontainer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 16px;
 }
 
-.workImagesContainer {
-  padding-inline: 2rem;
-  padding-bottom: 100px;
-  padding-right: 80px
+#mainworkcontainer {
+  padding-bottom: 400px;
+  justify-content: space-between;
+  
+} 
+
+.workImages {
+  justify-content: space-between;
+  object-fit: fill;
+}
+
+.bigimagecard, #bigimage {
+  display: flex;
+  position: relative;
+  margin: 2rem;
+  width: 70%;
+  height: 300px;
+  opacity: 0.8;
+  margin-top: -540px;
+  margin-left: 250px;
+  border: solid rgb(145,203,205);
+  
   
 }
-.image1 {
-  border: solid rgb(145,203,205);
-  height: 350px;
-}
-.image2 {
+
+.imagecontainer {
   display: flex;
-  border: solid rgb(145,203,205);
-  width: 45%;
-  float: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 245px;
+  margin-top: -30px;
 }
-.image3 {
-  display: flex;
+
+.littleimagecard{
+  margin: 5px;
+  width: 44%;
+  opacity: 0.8;
   border: solid rgb(145,203,205);
-  width: 45%;
-  float: right;
+  height: 150px;
+  background-size: cover;
+  background-position: right 55% bottom 68% !important;
   
 }
+
+
+#bigimage:hover {
+  opacity: 1.0;
+}
+
+#littleimage:hover {
+  opacity: 1.0;
+}
+ 
+#bigimage {
+  position: relative;
+  display: flex;
+  object-fit: fill;
+}
+
+#littleimage1 {
+  background: url("Images/6307AED3-ED25-42C3-A9AA-9482395C37CD_1_105_c.jpeg")
+}
+
+#littleimage2 {
+  background: url("/Images/00ED63C6-8543-41B8-AAD4-D12E910DF800_1_105_c.jpeg")
+}
+
+#littleimage3 {
+  background: url(/Images/6C883EF5-71D7-4579-9DD1-1A96E2653E70_1_105_c.jpeg)
+}
+
+#littleimage4 {
+  background: url(/Images/japanesegate.jpeg)
+}
+
+#pic1 {
+  
+  object-fit: fill;
+  height: 300px;
+  
+}
+
+
