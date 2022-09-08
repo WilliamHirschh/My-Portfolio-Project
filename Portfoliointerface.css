@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color:rgb(208, 215, 215);
 }
 
 
@@ -36,9 +37,6 @@ color: rgb(145,203,205);
 display: inline-block;
 float: right;
 
-
-
-
 }
 
 ul {
@@ -67,6 +65,11 @@ ul {
     border-bottom: 4px solid;
     
   
+ }
+
+ a.work:hover,
+a.work:focus {
+  bulox-shadow: inset 0 0 0 2em var(--hover);
  }
 
  img {
@@ -127,7 +130,7 @@ ul {
 }
 
 #mainworkcontainer {
-  padding-bottom: 400px;
+  padding-bottom: 500px;
   justify-content: space-between;
   
 } 
@@ -141,10 +144,10 @@ ul {
   display: flex;
   position: relative;
   margin: 2rem;
-  width: 70%;
+  max-width: 77.5%;
   height: 300px;
   opacity: 0.8;
-  margin-top: -540px;
+  margin-top: -640px;
   margin-left: 250px;
   border: solid rgb(145,203,205);
   
@@ -161,7 +164,7 @@ ul {
 
 .littleimagecard{
   margin: 5px;
-  width: 44%;
+  width: 46%;
   opacity: 0.8;
   border: solid rgb(145,203,205);
   height: 150px;
@@ -208,4 +211,23 @@ ul {
   
 }
 
+.footercontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: -36px;
+  margin-bottom: 40px;
+}
 
+.footerlinks {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 50px;
+  color: rgb(101, 118, 143);
+  font-weight: lighter;
+
+}
