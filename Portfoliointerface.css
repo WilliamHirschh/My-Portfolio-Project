@@ -150,10 +150,10 @@ ul {
   margin: 2rem;
   max-width: 77.5%;
   height: 300px;
-  opacity: 0.8;
+  opacity: 0.7;
   margin-top: -590px;
   margin-left: 250px;
-  border: solid rgb(145,203,205);
+  border: solid 8px rgb(145,203,205);
   
   
 }
@@ -170,8 +170,8 @@ ul {
 .littleimagecard{
   margin: 5px;
   width: 46%;
-  opacity: 0.8;
-  border: solid rgb(145,203,205);
+  opacity: 0.7;
+  border: solid 8px rgb(145,203,205);
   height: 150px;
   background-size: cover;
   background-position: right 55% bottom 68% !important;
@@ -194,19 +194,25 @@ ul {
 }
 
 #littleimage1 {
-  background: url("Images/6307AED3-ED25-42C3-A9AA-9482395C37CD_1_105_c.jpeg")
+  background: url("/Images/scenery.jpg");
+  background-position: right 50% bottom 70% !important;
 }
 
 #littleimage2 {
-  background: url("/Images/00ED63C6-8543-41B8-AAD4-D12E910DF800_1_105_c.jpeg")
+background: url("/Images/scenery2.jpg");
+background-position: right 50% bottom 70% !important;
 }
 
+
 #littleimage3 {
-  background: url(/Images/6C883EF5-71D7-4579-9DD1-1A96E2653E70_1_105_c.jpeg)
+  background: url("/Images/scenery3.jpg");
+  background-position: right 30% bottom 60% !important;
+
 }
 
 #littleimage4 {
-  background: url(/Images/japanesegate.jpeg)
+  background: url("/Images/scenery4.jpg");
+  background-position: right 30% bottom 70% !important;
 }
 
 #pic1 {
@@ -247,8 +253,11 @@ ul {
     flex-direction: column;
     
   }
+  .aboutMeParagraphContainer {
+    padding-right: 0;
+  }
   p {
-    text-align:center;
+    text-align: center;
   }
   .littleimagecard {
     flex-wrap: wrap;
@@ -267,10 +276,10 @@ ul {
 }
   .mainheaders {
     flex-direction: column;
-    text-align: center;
+    
 }
   #Work {
-    text-align: center;
+    
     flex-direction: column;
     flex-wrap: wrap;
   margin-top: -50px;
@@ -283,8 +292,20 @@ ul {
     text-align: center;
   }
  
-
+  .Workcontainer {
+    flex-direction: column;
+  }
  
+  .footercontainer {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .footerlinks {
+    flex-direction: column;
+   float: right;
+  }
+
 nav {
  margin: 0 auto;
 }
