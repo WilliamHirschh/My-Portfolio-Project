@@ -129,20 +129,18 @@ ul {
 .Workcontainer {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: 80px;
   margin-left: 16px;
 }
 
-#mainworkcontainer {
+#borderright {
   padding-bottom: 500px;
-  justify-content: space-between;
+  
   
 } 
 
 .workImages {
-  justify-content: space-between;
+  
   object-fit: fill;
 }
 
@@ -240,11 +238,17 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
+  
   h1 {
     width: 100%;
+    text-align: center;
   }
   .AboutMeContainer {
     flex-direction: column;
+    
+  }
+  p {
+    text-align:center;
   }
   .littleimagecard {
     flex-wrap: wrap;
@@ -252,22 +256,48 @@ ul {
   }
   .imagecontainer {
     flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0%
+  }
+  .bigimagecard, #bigimage {
+
+    width: 100%;
+    margin-top: -400px;
+    margin-left: 10px;
 }
-.mainheaders {
-  flex-direction: column;
+  .mainheaders {
+    flex-direction: column;
+    text-align: center;
 }
+  #Work {
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  margin-top: -50px;
+  margin-bottom: -100px;
+  }
+  .mainheaderscontainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-right: 0px;
+    text-align: center;
+  }
+ 
+
+ 
 nav {
-  margin-left: 50px;
-  margin-right: 50px;
+ margin: 0 auto;
 }
+
+
 }
 
 @media screen and (max-width: 980px) {
   h1 {
     width: 100%;
+    text-align: center;
   }
   nav {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 auto;
   }
 }
