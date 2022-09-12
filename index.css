@@ -229,22 +229,24 @@ ul {
 }
 
 .footercontainer {
-  width: 100%;
+  display: inline-block;
+  
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
   margin-left: -36px;
   margin-bottom: 40px;
 }
 
 .footerlinks {
+  display: flex;
   position: relative;
   display: inline-block;
   margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 100px;
+  margin-left: 5px;
+  margin-right: 80px;
   color: rgb(33, 71, 51);
   font-weight: lighter;
+  padding-left: -20px;
 
 }
 
@@ -352,6 +354,7 @@ ul {
     flex-direction: column;
    margin-top: 10px;
    align-items: center;
+   margin-left: 65px;
   }
 
 nav {
@@ -464,6 +467,7 @@ nav {
     flex-direction: column;
    margin-top: 10px;
    align-items: center;
+   margin-left: 65px;
   }
 
 nav {

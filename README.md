@@ -5,9 +5,10 @@
 The use of my portfolio is to see all my latest projects and information about me and my hobbies. It also was built to serve as practice for creating a webpage and my skills with HTML and CSS.
 
 #Screenshots
-<img src>
+<img src="Images/top.png" >
+<img src="Images/bottom.png">
 
-#License
+#License 
 MIT License
 
 #Features
@@ -17,3 +18,6 @@ MIT License
 -Bio about myself.
 
 #Links
+Git hub repo https://github.com/WilliamHirschh
+
+My portfolio https://williamhirschh.github.io/My-Portfolio-Project/
