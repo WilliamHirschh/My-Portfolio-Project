@@ -257,6 +257,9 @@ ul {
     width: 100%;
     text-align: center;
   }
+  h2 {
+    margin-top: 85px;
+  }
   .AboutMeContainer {
     flex-direction: column;
     
@@ -267,7 +270,10 @@ ul {
   p {
     text-align: center;
   }
-
+.mypicture {
+  width: 150px;
+  height: 150px;
+}
   .littleimagecard {
     width: 100%;
     margin-top: 0px;
@@ -364,6 +370,9 @@ nav {
     width: 100%;
     text-align: center;
   }
+  h2 {
+    margin-top: 85px;
+  }
   .AboutMeContainer {
     flex-direction: column;
     
@@ -374,7 +383,10 @@ nav {
   p {
     text-align: center;
   }
-
+  .mypicture {
+    width: 150px;
+    height: 150px;
+  }
   .littleimagecard {
     width: 100%;
     margin-top: 0px;
