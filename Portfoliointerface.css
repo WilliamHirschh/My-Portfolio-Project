@@ -136,7 +136,7 @@ ul {
 }
 
 #borderright {
-  padding-bottom: 500px;
+  padding-bottom: 900px;
   
   
 } 
@@ -145,11 +145,11 @@ ul {
 .bigimagecard {
   display: flex;
   position: relative;
-  margin-left: 5px;
-  max-width: 96%;
+  
+  max-width: 100%;
   height: 300px;
   opacity: 0.7;
-  margin-top: -560px;
+  margin-top: -960px;
   border: solid 8px rgb(33, 71, 51);
   
   
@@ -157,25 +157,22 @@ ul {
 
 .imagecontainer {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   flex-direction: row;
   margin-left: 250px;
   opacity: 0.8;
-  width: auto;
+  
 }
 
 .littleimagecard{
-
-  
-  width: 46.4%;
+  margin-top: -390px;
+  padding: 1%;
+  width: 45%;
   opacity: 0.7;
-  border: solid 8px rgb(33, 71, 51);
-  height: 150px;
-  background-size: cover;
-  background-position: right 55% bottom 68% !important;
+  display: inline-block;
   
 }
-
 
 .bigimagecard:hover {
   opacity: 1.0;
@@ -184,35 +181,30 @@ ul {
 .littleimagecard:hover {
   opacity: 1.0;
 }
- 
 
 #littleimage1 {
-  background: url("/Images/scenery.jpg");
-  background-position: right 50% bottom 70% !important;
-  margin-top: -230px;
-  margin-right: 10px;
-  
+  margin-top: -200px;
+  border: solid 8px rgb(33, 71, 51);
 }
 
 #littleimage2 {
-background: url("/Images/scenery2.jpg");
-background-position: right 50% bottom 70% !important;
-margin-top: -230px;
-}
+  margin-top: -200px;
+  border: solid 8px rgb(33, 71, 51);
+  
+} 
 
 
 #littleimage3 {
-  background: url("/Images/scenery3.jpg");
-  background-position: right 30% bottom 60% !important;
-  margin-top: -60px;
-  margin-right: 10px;
+  border: solid 8px rgb(33, 71, 51);
+  margin-top: 40px;
 }
 
 #littleimage4 {
-  background: url("/Images/scenery4.jpg");
-  background-position: right 30% bottom 70% !important;
-  margin-top: -60px;
-}
+  border: solid 8px rgb(33, 71, 51);
+  margin-top: 40px;
+} 
+
+
 
 #pic1 {
   
@@ -233,8 +225,7 @@ margin-top: -230px;
 .footerlinks {
   position: relative;
   display: inline-block;
-  
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20px;
   margin-right: 100px;
   color: rgb(101, 118, 143);
@@ -243,7 +234,10 @@ margin-top: -230px;
 }
 
 @media screen and (max-width: 768px) {
-  
+  body{
+    padding-right: 0px;
+    padding-left: 20px;
+  }
   h1 {
     width: 100%;
     text-align: center;
@@ -261,51 +255,40 @@ margin-top: -230px;
 
   .littleimagecard {
     width: 100%;
+    margin-top: 0px;
   }
   #littleimage1 {
-    background: url("/Images/scenery.jpg");
-    background-position: right 50% bottom 70% !important;
-    margin-top: 20px;
-    margin-left: 10px;
-  margin-right: 10px;
+   
+    margin-top: 10px;
+  
   }
   
   #littleimage2 {
-  background: url("/Images/scenery2.jpg");
-  background-position: right 50% bottom 70% !important;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+    margin-top: 10px;
   }
   
   
   #littleimage3 {
-    background: url("/Images/scenery3.jpg");
-    background-position: right 30% bottom 60% !important;
-    margin-top: 20px;
-    margin-left: 10px;
-  margin-right: 10px;
+    margin-top: 10px;
   }
   
   #littleimage4 {
-    background: url("/Images/scenery4.jpg");
-    background-position: right 30% bottom 70% !important;
-    margin-top: 20px;
-    margin-left: 10px;
-  margin-right: 10px;
+    margin-top: 10px;
   }
   
   .imagecontainer {
+    margin-top: -90px;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 0%;
-    width: 100;
+    margin: 0px;
+    width: 100%;
+    
   }
   .bigimagecard {
     max-height: 100%;
     width: 100%;
-    margin-top: -400px;
-    margin-left: 10px;
+    margin-top: -890px;
+    margin-left: 15px;
 }
   .mainheaders {
     flex-direction: column;
@@ -330,6 +313,7 @@ margin-top: -230px;
  
   .Workcontainer {
     flex-direction: column;
+    width: 100%;
   }
  
   .footercontainer {
@@ -341,7 +325,8 @@ margin-top: -230px;
   }
   .footerlinks {
     flex-direction: column;
-   float: right;
+   margin-top: 10px;
+   align-items: center;
   }
 
 nav {
