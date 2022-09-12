@@ -1,3 +1,8 @@
+
+  
+
+
+
 body{
     padding: 0;
     margin: 0;
@@ -82,10 +87,10 @@ ul {
  }
 
  .mypicture {
-  margin-top: -195px;
+  margin-top: -202px;
   display: flex;
   width: 170px;
-  height: 190px;
+  height: 195px;
  }
 
 .headerImage h2 {
@@ -153,14 +158,13 @@ ul {
 .bigimagecard {
   display: flex;
   position: relative;
-  
-  max-width: 100%;
+  width: 100%;
   height: 300px;
   opacity: 0.7;
   margin-top: -960px;
   border: solid 8px rgb(33, 71, 51);
-  
-  
+  margin-right: 35px;
+  margin-left: 10px;
 }
 
 .imagecontainer {
@@ -170,13 +174,14 @@ ul {
   flex-direction: row;
   margin-left: 250px;
   opacity: 0.8;
+  max-width: 100%;
   
 }
 
 .littleimagecard{
   margin-top: -390px;
   padding: 1%;
-  width: 45%;
+  width: 45.5%;
   opacity: 0.7;
   display: inline-block;
   
@@ -282,7 +287,7 @@ ul {
   
   #littleimage3 {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 8px;
   }
   
   #littleimage4 {
@@ -377,22 +382,23 @@ nav {
   #littleimage1 {
    
     margin-top: 10px;
-  
+  margin-left: 4px;
   }
   
   #littleimage2 {
     margin-top: 10px;
-    
+    margin-left: 4px;
   }
   
   
   #littleimage3 {
     margin-top: 10px;
-    
+    margin-left: 4px;
   }
   
   #littleimage4 {
     margin-top: 10px;
+    margin-left: 4px;
   }
   
   .imagecontainer {
@@ -450,4 +456,5 @@ nav {
 
 nav {
  margin: 0 auto;
+}
 }
