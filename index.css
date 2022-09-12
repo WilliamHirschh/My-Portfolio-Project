@@ -108,7 +108,9 @@ ul {
   font-weight: lighter;
   
  }
-
+.aboutMeParagraph {
+  line-height: 230%;
+}
 
  .AboutMeContainer {
   width: 100%;
