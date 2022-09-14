@@ -238,9 +238,8 @@ ul {
 .footerlinks {
   display: flex;
   position: relative;
-  display: inline-block;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 55px;
   margin-right: 80px;
   color: rgb(33, 71, 51);
   font-weight: lighter;
@@ -352,7 +351,7 @@ ul {
     flex-direction: column;
    margin-top: 10px;
    align-items: center;
-   margin-left: 65px;
+   margin-left: 75px;
   }
 
 nav {
@@ -465,7 +464,7 @@ nav {
     flex-direction: column;
    margin-top: 10px;
    align-items: center;
-   margin-left: 65px;
+   margin-left: 105px;
   }
 
 nav {
